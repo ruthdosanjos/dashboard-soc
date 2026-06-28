@@ -1,8 +1,6 @@
 ![React](https://img.shields.io/badge/React-19-blue?logo=react)
 ![Vite](https://img.shields.io/badge/Vite-8-purple?logo=vite)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 # 🛡️ SOC Dashboard
 
 A modern Security Operations Center (SOC) dashboard built with React, inspired by real-world security monitoring platforms such as Splunk, Kibana and Microsoft Sentinel.
