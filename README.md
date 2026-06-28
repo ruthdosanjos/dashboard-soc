@@ -13,7 +13,9 @@ This project was developed as part of my journey into Front-end Development, wit
 
 ## 📸 Preview
 
-><img width="1860" height="845" alt="soc" src="https://github.com/user-attachments/assets/135c272d-eae4-4a42-a291-45e5c91a326d" />
+><img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8125c7ae-0ad0-4f1b-a5f4-10c60bcd16d1" />
+
+
 
 
 
