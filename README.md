@@ -13,7 +13,8 @@ This project was developed as part of my journey into Front-end Development, wit
 
 ## 📸 Preview
 
-> <img width="1901" height="868" alt="image" src="https://github.com/user-attachments/assets/0d5ce610-9259-4351-9d84-e8cd1ca3c4e5" />
+><img width="1860" height="845" alt="soc" src="https://github.com/user-attachments/assets/135c272d-eae4-4a42-a291-45e5c91a326d" />
+
 
 
 ![SOC Dashboard Preview](./docs/dashboard-preview.png)
