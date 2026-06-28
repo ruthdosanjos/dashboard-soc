@@ -1,18 +1,23 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
+import "./Layout.css";
 
 export default function Layout() {
   return (
-    <div style={{ display: "flex", height: "100vh" }}>
+    <div className="layout">
       <Sidebar />
 
-      <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
+      <div className="layout__content">
         <Header />
 
-        <main style={{ padding: "20px", overflowY: "auto" }}>
+        <main className="layout__main">
           <Outlet />
         </main>
+
+        <footer className="footer">
+          SOC Dashboard © 2026
+        </footer>
       </div>
     </div>
   );

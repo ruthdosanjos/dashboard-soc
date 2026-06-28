@@ -17,7 +17,13 @@ export default function Header() {
           Status:
           <strong className="header__status-online"> Online</strong>
         </span>
-
+        <div className="header__datetime">
+          {new Date().toLocaleDateString("en-US", {
+            month: "short",
+            day: "numeric",
+            year: "numeric",
+          })}
+        </div>
         <button
           className="theme-button"
           onClick={() => setDarkMode(!darkMode)}

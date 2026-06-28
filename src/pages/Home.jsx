@@ -4,19 +4,46 @@ import MetricCard from "../components/cards/MetricCard";
 import AlertCard from "../components/cards/AlertCard";
 import LogTable from "../components/cards/LogTable";
 import ActivityChart from "../components/charts/ActivityChart";
+import {
+  ShieldAlert,
+  ShieldCheck,
+  Activity
+} from "lucide-react";
 
 import { metrics, alerts, logs, activityData } from "../services/mock";
 
 export default function Home() {
   return (
     <div className="dashboard">
+
       <h1>Security Operations Center</h1>
+
+      <p className="dashboard-subtitle">
+        Monitor your infrastructure, detect threats and respond to incidents in real time.
+      </p>
 
       {/* METRICS */}
       <div className="dashboard__metrics">
-        <MetricCard title="Critical Alerts" value={metrics.alertsCritical} />
-        <MetricCard title="Active Incidents" value={metrics.incidentsActive} />
-        <MetricCard title="System Status" value={metrics.systemStatus} />
+        <MetricCard
+          className="metric-card--critical"
+          title="Critical Alerts"
+          value={metrics.alertsCritical}
+          icon={ShieldAlert}
+        />
+
+        <MetricCard
+          className="metric-card--incident"
+          title="Active Incidents"
+          value={metrics.incidentsActive}
+          icon={Activity}
+        />
+
+        <MetricCard
+          className="metric-card--status"
+          title="System Status"
+          value={metrics.systemStatus}
+          icon={ShieldCheck}
+        />
       </div>
 
       {/* CHART + ALERTS */}

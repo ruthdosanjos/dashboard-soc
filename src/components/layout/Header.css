@@ -46,3 +46,8 @@
 .theme-button:hover {
   transform: translateY(-2px);
 }
+
+.header__datetime{
+    color:#9ca3af;
+    font-size:.85rem;
+}

@@ -35,7 +35,7 @@
 
   border-radius: 8px;
 
-  transition: 0.2s;
+  transition: .2s;
 
   display: flex;
 
@@ -48,6 +48,7 @@
 .sidebar__item:hover {
   background: rgba(255,255,255,.08);
   color: white;
+  padding-left:18px;
 }
 
 .sidebar__item--active {

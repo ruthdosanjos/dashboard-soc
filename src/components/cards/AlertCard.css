@@ -15,6 +15,7 @@
   transform: translateY(-2px);
 }
 
+
 .alert-card__header {
   display: flex;
   justify-content: space-between;
@@ -57,4 +58,16 @@
 
 .alert-card--low {
   border-color: #3b82f6;
+}
+
+.metric-card--critical {
+  border-top: 4px solid #ef4444;
+}
+
+.metric-card--incident {
+  border-top: 4px solid #f97316;
+}
+
+.metric-card--status {
+  border-top: 4px solid #22c55e;
 }

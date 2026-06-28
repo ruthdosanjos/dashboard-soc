@@ -11,6 +11,7 @@ export default function LogTable({ logs }) {
             <th>Time</th>
             <th>Event</th>
             <th>Source</th>
+            <th>Severity</th>
           </tr>
         </thead>
 
@@ -20,7 +21,13 @@ export default function LogTable({ logs }) {
               <td>{log.time}</td>
               <td>{log.event}</td>
               <td>{log.source}</td>
+              <td>
+    <span className={`badge ${log.severity.toLowerCase()}`}>
+        {log.severity}
+    </span>
+</td>
             </tr>
+            
           ))}
         </tbody>
       </table>

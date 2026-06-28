@@ -30,31 +30,29 @@ export const alerts = [
 
 export const logs = [
   {
-    id: 101,
-    time: "19:01",
-    event: "User login successful",
-    source: "Auth Server",
+    time:"19:01",
+    event:"User login successful",
+    source:"Auth Server",
+    severity:"Success"
   },
   {
-    id: 102,
-    time: "19:03",
-    event: "Failed password attempt",
-    source: "Auth Server",
+    time:"19:03",
+    event:"Failed password attempt",
+    source:"Auth Server",
+    severity:"High"
   },
   {
-    id: 103,
-    time: "19:05",
-    event: "Port scan detected",
-    source: "Firewall",
+    time:"19:05",
+    event:"Port scan detected",
+    source:"Firewall",
+    severity:"Critical"
   },
   {
-    id: 104,
-    time: "19:07",
-    event: "Blocked suspicious request",
-    source: "WAF",
-  },
-
-  
+    time:"19:07",
+    event:"Blocked suspicious request",
+    source:"WAF",
+    severity:"Medium"
+  }
 ];
 
 export const activityData = [
@@ -64,3 +62,4 @@ export const activityData = [
   { day: "Thu", value: 200 },
   { day: "Fri", value: 160 },
 ];
+
