@@ -1,0 +1,35 @@
+.metric-card {
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: 10px;
+
+  padding: 18px;
+
+  min-width: 190px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,.05);
+
+  transition: .2s;
+}
+
+.metric-card:hover {
+  transform: translateY(-3px);
+}
+
+.metric-card__title {
+  color: var(--text-secondary);
+
+  font-size: 14px;
+
+  margin-bottom: 10px;
+}
+
+.metric-card__value {
+  color: var(--text);
+
+  font-size: 30px;
+
+  font-weight: 700;
+}

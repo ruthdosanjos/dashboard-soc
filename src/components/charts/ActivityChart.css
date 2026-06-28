@@ -1,0 +1,47 @@
+.activity-chart {
+  margin-top: 30px;
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: 10px;
+
+  padding: 20px;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+}
+
+.activity-chart__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.activity-chart__header h3 {
+  color: var(--text);
+
+  margin-bottom: 5px;
+}
+
+.activity-chart__header p {
+  color: var(--text-secondary);
+
+  font-size: 14px;
+}
+
+.activity-chart__period {
+  background: rgba(59,130,246,.1);
+
+  color: #3b82f6;
+
+  padding: 6px 12px;
+
+  border-radius: 999px;
+
+  font-size: 13px;
+
+  font-weight: 600;
+}

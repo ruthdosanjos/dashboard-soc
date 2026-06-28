@@ -1,0 +1,60 @@
+.alert-card {
+  background: var(--surface);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 14px;
+
+  border-left: 6px solid;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,.05);
+
+  transition: .2s;
+}
+
+.alert-card:hover {
+  transform: translateY(-2px);
+}
+
+.alert-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert-card__header h4 {
+  color: var(--text);
+}
+
+.alert-card__severity {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.alert-card__footer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 10px;
+
+  color: var(--text-secondary);
+
+  font-size: 13px;
+}
+
+/* Severidades */
+
+.alert-card--critical {
+  border-color: #ef4444;
+}
+
+.alert-card--high {
+  border-color: #f97316;
+}
+
+.alert-card--medium {
+  border-color: #eab308;
+}
+
+.alert-card--low {
+  border-color: #3b82f6;
+}

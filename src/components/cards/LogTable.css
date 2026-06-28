@@ -1,0 +1,44 @@
+.log-table {
+  margin-top: 30px;
+
+  background: var(--surface);
+
+  border: 1px solid var(--border);
+
+  border-radius: 10px;
+
+  padding: 20px;
+
+  overflow-x: auto;
+}
+
+.log-table h3 {
+  margin-bottom: 18px;
+
+  color: var(--text);
+}
+
+.log-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.log-table th,
+.log-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.log-table thead {
+  border-bottom: 1px solid var(--border);
+
+  color: var(--text-secondary);
+}
+
+.log-table tbody tr:nth-child(even) {
+  background: rgba(255,255,255,.03);
+}
+
+.log-table tbody tr:hover {
+  background: rgba(59,130,246,.08);
+}

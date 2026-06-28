@@ -1,0 +1,48 @@
+.header {
+  height: 60px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 20px;
+}
+
+.header__title {
+  font-size: 22px;
+  color: var(--text);
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__status {
+  color: var(--text-secondary);
+}
+
+.header__status-online {
+  color: #22c55e;
+}
+
+.theme-button {
+  background: var(--surface);
+  color: var(--text);
+
+  border: 1px solid var(--border);
+
+  padding: 8px 14px;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.theme-button:hover {
+  transform: translateY(-2px);
+}
