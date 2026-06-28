@@ -1,16 +1,151 @@
-# React + Vite
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-8-purple?logo=vite)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛡️ SOC Dashboard
 
-Currently, two official plugins are available:
+A modern Security Operations Center (SOC) dashboard built with React, inspired by real-world security monitoring platforms such as Splunk, Kibana and Microsoft Sentinel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project was developed as part of my journey into Front-end Development, with a focus on clean architecture, reusable components and an intuitive user experience.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
 
-## Expanding the ESLint configuration
+> <img width="1901" height="868" alt="image" src="https://github.com/user-attachments/assets/0d5ce610-9259-4351-9d84-e8cd1ca3c4e5" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+![SOC Dashboard Preview](./docs/dashboard-preview.png)
+
+---
+
+## ✨ Features
+
+- 📊 Interactive dashboard
+- 🚨 Security alerts monitoring
+- 📄 Event logs table
+- 📈 Activity overview chart
+- 🌙 Dark Mode
+- 📂 Sidebar navigation
+- 🎨 Modern and responsive UI
+- 🧩 Reusable React components
+- 📁 Organized project structure
+
+---
+
+## 🛠️ Built With
+
+- React
+- Vite
+- JavaScript (ES6+)
+- Recharts
+- Lucide React
+- CSS3
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── cards/
+│   ├── charts/
+│   └── layout/
+│
+├── pages/
+│
+├── services/
+│
+├── styles/
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/yourusername/soc-dashboard.git
+```
+
+Navigate to the project folder
+
+```bash
+cd soc-dashboard
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📈 Current Features
+
+- Dashboard overview
+- KPI cards
+- Security alerts
+- Event logs
+- Activity chart
+- Dark/Light mode
+- Professional sidebar
+- Responsive layout
+- Component-based architecture
+
+---
+
+## 🎯 Next Improvements
+
+- Authentication
+- Real-time data simulation
+- REST API integration
+- Search and filters
+- User management
+- Notifications
+- Dashboard customization
+- Export reports
+
+---
+
+## 📚 What I Learned
+
+During this project I practiced:
+
+- React fundamentals
+- Component architecture
+- State management
+- React Router
+- Responsive layouts
+- UI organization
+- Code refactoring
+- CSS modularization
+- Dashboard design principles
+
+---
+
+## 👩‍💻 About Me
+
+I'm currently transitioning into Front-end Development, building practical projects that combine clean code, user experience and modern web technologies.
+
+I enjoy creating applications that solve real-world problems while continuously improving my technical skills.
+
+---
+
+## ⭐ If you liked this project
+
+Feel free to leave a ⭐ on the repository or share your feedback!
